@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.CadastroUsuarioActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        app:srcCompat="@drawable/usuario" />
+
+    <EditText
+        android:id="@+id/cadastro_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:hint="Digite o seu nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cadastro_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="240dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:ems="10"
+        android:hint="Digite a sua senha"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/cadastro_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="245dp"
+        android:ems="10"
+        android:hint="Digite o seu email"
+        android:inputType="textWebEmailAddress" />
+
+    <Button
+        android:id="@+id/bCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="136dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:text="Cadastrar" />
+</RelativeLayout>
