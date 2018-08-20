@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.item_adicionar:
                 deslogarUsuario();
+
                 return true;
 
             default:
